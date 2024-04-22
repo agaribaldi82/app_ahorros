@@ -1,0 +1,49 @@
+h1{
+    color: #e8b023;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+p{
+    color: white;
+    font-size: 40px;
+}
+
+#boton1{
+    font-size: 25px;
+    background-color: #359b35;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+}
+#boton2{
+    font-size: 25px;
+    background-color: #5b86a1;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+}
+body::before {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background: url('logo_fondo.png') center center fixed;
+    background-size: cover;
+    opacity: 0.4; /* Ajusta el valor de opacidad según sea necesario */
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido principal */;
+}
+body{
+    text-align: center;
+}
+.formu{
+    background-color: #20382f;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 100px;
+    border-radius: 30px;
+}
